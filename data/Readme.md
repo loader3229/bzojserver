@@ -1,5 +1,6 @@
 # BZOJ Java Server/data
- 
+
+这里存放HTML文件。
 在这里，所有HTML文件均带有HTTP文件头。  
 
 ## 如何添加题目？
