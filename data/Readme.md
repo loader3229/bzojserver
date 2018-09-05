@@ -16,4 +16,4 @@ data2
 data10
 ```
 
-5. 添加题目完成！
+5. 创建Pull Request，添加题目完成！
