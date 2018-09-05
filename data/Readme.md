@@ -5,6 +5,7 @@
 
 ## 如何添加题目？
 
+由于这是BZOJ Java Server，因此只能添加BZOJ的题目。
 1. 在BZOJ Java Server/data/problems.html中&lt;tbody>与&lt;/tbody>之间添加：&lt;tr>&lt;td>`PID`&lt;/td>&lt;td>&lt;a href="/problem/`PID`.html">`题目名称`&lt;/a>&lt;/td>&lt;/tr>
 2. 进入BZOJ Java Server/data/problem文件夹，添加`PID`.html文件。
 3. 进入BZOJ Java Server/oj/data文件夹，创建`PID`文件夹。
