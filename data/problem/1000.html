@@ -1,0 +1,106 @@
+HTTP/1.1 200 OK
+Server: Java/0
+Content-Length: 3441
+Content-Type: text/html
+
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>BZOJ By qq1010903229</title>
+<style>
+a{
+color:#009900;
+text-decoration:none;
+}
+a.current{
+color:#cc9900;
+}
+a.title{
+color:#9933ff;
+}
+a.title.current{
+color:#cc9900;
+}
+</style>
+</head><body>
+<a href="/index.html" class="title">BZOJ By qq1010903229</a>&nbsp;&nbsp;&nbsp;
+<a href="/problems.html" class="current">题目</a>&nbsp;&nbsp;&nbsp;
+<hr>
+<h2>1000: A+B Problem</h2>
+<br>
+<a href="/submit.html?pid=1000">提交</a>
+<h3>题目描述</h3>
+<p>输入两个数字，输出它们之和</p>
+<h3>输入格式</h3>
+<p>一行两个数字A,B(0<=A,B<100)</p>
+<h3>输出格式</h3>
+<p>输出这两个数字之和</p>
+<h3>样例输入</h3>
+<p>1 2</p>
+<h3>样例输出</h3>
+<p>3</p>
+<h3>提示</h3>
+<p></p><p>Q: Where are the input and the output? A: Your program shall always <font color="#ff0000">read input from stdin (Standard Input) and write output to stdout (Standard Output)</font>. For example, you can use 'scanf' in C or 'cin' in C++ to read from stdin, and use 'printf' in C or 'cout' in C++ to write to stdout. You <font color="#ff0000">shall not output any extra data</font> to standard output other than that required by the problem, otherwise you will get a "Wrong Answer". User programs are not allowed to open and read from/write to files. You will get a "Runtime Error" or a "Wrong Answer" if you try to do so. Here is a sample solution for problem 1000 using C++/G++:</p><br>
+<pre><br>
+#include <iostream></iostream><br>
+using namespace std;<br>
+int  main()<br>
+{<br>
+    int a,b;<br>
+    cin &gt;&gt; a &gt;&gt; b;<br>
+    cout &lt;&lt; a+b &lt;&lt; endl;<br>
+    return 0;<br>
+}</pre><br>
+<p>It's important that the return type of main() must be int when you use G++/GCC,or you may get compile error. Here is a sample solution for problem 1000 using C/GCC:</p><br>
+<pre><br>
+#include <stdio.h></stdio.h><br>
+<br>
+int main()<br>
+{<br>
+    int a,b;<br>
+    scanf("%d %d",&amp;a, &amp;b);<br>
+    printf("%d\n",a+b);<br>
+    return 0;<br>
+}</pre><br>
+<p>Here is a sample solution for problem 1000 using PASCAL:</p><br>
+<pre><br>
+program p1000(Input,Output); <br>
+var <br>
+  a,b:Integer; <br>
+begin <br>
+   Readln(a,b); <br>
+   Writeln(a+b); <br>
+end.</pre><br>
+<p>Here is a sample solution for problem 1000 using JAVA: Now java compiler is jdk 1.5, next is program for 1000</p><br>
+<pre><br>
+import java.io.*;<br>
+import java.util.*;<br>
+public class Main<br>
+{<br>
+            public static void main(String args[]) throws Exception<br>
+            {<br>
+                    Scanner cin=new Scanner(System.in);<br>
+                    int a=cin.nextInt(),b=cin.nextInt();<br>
+                    System.out.println(a+b);<br>
+            }<br>
+}</pre><br>
+<p>Old program for jdk 1.4</p><br>
+<pre><br>
+import java.io.*;<br>
+import java.util.*;<br>
+<br>
+public class Main<br>
+{<br>
+    public static void main (String args[]) throws Exception<br>
+    {<br>
+        BufferedReader stdin = <br>
+            new BufferedReader(<br>
+                new InputStreamReader(System.in));<br>
+<br>
+        String line = stdin.readLine();<br>
+        StringTokenizer st = new StringTokenizer(line);<br>
+        int a = Integer.parseInt(st.nextToken());<br>
+        int b = Integer.parseInt(st.nextToken());<br>
+        System.out.println(a+b);<br>
+    }<br>
+}</pre><p></p>
+</body></html>
