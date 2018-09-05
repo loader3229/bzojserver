@@ -3,11 +3,11 @@
 这是一个用Java和C++制作的BZOJ服务器。  
 在这里，所有HTML文件均带有HTTP文件头。  
 
-[![Travis CI](https://api.travis-ci.org/qq1010903229/ojserver.svg?branch=master)](https://travis-ci.org/qq1010903229/ojserver)
+[![Travis CI](https://api.travis-ci.org/qq1010903229/bzojserver.svg?branch=master)](https://travis-ci.org/qq1010903229/bzojserver)
 
 ## 下载方法
 
-点击[此链接](https://github.com/qq1010903229/ojserver/archive/master.zip)。
+点击[此链接](https://github.com/qq1010903229/bzojserver/archive/master.zip)。
 
 ## 使用方法
 
